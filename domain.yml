@@ -1,0 +1,54 @@
+version: "3.1"
+
+intents:
+  - cumprimentar
+  - afirmar
+  - negar
+  - quem
+  - idade
+  - origem
+  - familia
+  - filho
+  - irmao
+  - pai
+  - despedir
+
+responses:
+  utter_cumprimentar:
+  - text: "Oi! Tudo bem?"
+    text: "Meu nome é Iracema, quer conhecer um pouco sobre mim?"
+    text: "Posso te contar sobre minha origem, família, significado do meu nome e outra coisas."
+
+  utter_afirmar:
+  - text: "Pois é."
+
+  utter_negar:
+  - text: "Poxa, que pena, tente novamente."
+
+  utter_quem:
+  - text: "Sou uma índia da tribo dos tabajaras, a guardiã do segredo de jurema."
+
+  utter_idade:
+  - text: "Não se deve perguntar a idade de uma mulher."
+
+  utter_origem:
+  - text: "Vivi minha vida toda no Ceará, com minha tribo."
+
+  utter_familia:
+  - text: "Tenho Caubi, meu irmão; Araquém, meu pai; e Moacir, meu fiho. Não conheci minha mãe."
+
+  utter_filho:
+  - text: "Ah Moacir, meu filho querido, ele é o fruto de um grande amor, e representa o primeiro cearense."
+
+  utter_irmao:
+  - text: ""
+
+  utter_pai:
+  - text: ""
+
+  utter_despedir:
+  - text: "Até mais!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

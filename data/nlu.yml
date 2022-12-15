@@ -1,0 +1,95 @@
+version: "3.1"
+
+nlu:
+- intent: cumprimentar
+  examples: |
+    - olá
+    - oi
+    - eai
+    - eae
+    - e aí
+    - ei
+    - bom dia
+    - boa tarde
+    - boa noite
+    - fala
+    - opa
+    - bora
+
+- intent: afirmar
+  examples: |
+    - sim
+    - s
+    - de fato
+    - claro
+    - é isso aí
+    - correto
+
+- intent: negar
+  examples: |
+    - não
+    - n
+    - nunca
+    - acho que não
+    - não curti
+    - de jeito nenhum
+    - não exatamente
+
+- intent: quem
+  examples: |
+    - o que é você?
+    - quem é você?
+    - você é um bot?
+    - você é humana?
+
+- intent: idade
+  examples: |
+    - quantos anos você tem?
+    - qual a sua idade?
+
+- intent: origem
+  examples: |
+    - de onde você é?
+    - onde você nasceu?
+    - onde você mora?
+    - onde você vive?
+    - de onde você veio?
+
+- intent: familia
+  examples: |
+    - você tem família?
+    - me conte sobre sua família
+    - me fale sobre sua família
+
+- intent: filho
+    - você tem filhos?
+    - você tem filho?
+    - quem é o seu filho?
+    - quem foi o seu filho?
+    - como se chama seu filho?
+    - e seu filho?
+
+- intent: irmao
+    - você tem irmãos?
+    - você tem irmã?
+    - você tem irmão?
+
+- intent: pai
+    - quem são seus pais?
+    - quem é seu pai?
+
+- intent: 
+
+- intent: despedir
+  examples: |
+    - até
+    - adeus
+    - até mais
+    - até logo
+    - até já
+    - boa noite
+    - falou
+    - flw
+    - tenha um bom dia
+    - a gente se vê
+    - tchau

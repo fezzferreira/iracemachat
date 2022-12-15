@@ -4,27 +4,30 @@ stories:
 
 - story: caminho feliz
   steps:
-  - intent: cumrpimentar
+  - intent: cumprimentar
   - action: utter_cumprimentar
-  - intent: mood_great
-  - action: utter_happy
+  - intent: quem
+  - action: utter_quem
+  - intent: segredo
+  - action: utter_segredo
+  - intent: origem
+  - action: utter_origem
+  - intent: familia
+  - action: utter_familia
+  - intent: filho
+  - action: utter_filho
+  - intent: Martim
+  - action: utter_martim
+  - intent: resumo
+  - action: utter_resumo
+  - intent: despedir
+  - action: utter_despedir
 
 - story: caminho triste 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: caminho triste 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: cumprimentar
+  - action: utter_cumprimentar
+  - intent: negar
+  - action: utter_negar
+  - intent: despedir
+  - action: utter_despedir

@@ -42,6 +42,12 @@ nlu:
     - você é um bot?
     - você é humana?
 
+- intent: segredo
+  examples: |
+    - segredo?
+    - que segredo é esse?
+    - o que é o segredo de Jurema?
+
 - intent: idade
   examples: |
     - quantos anos você tem?
@@ -68,17 +74,33 @@ nlu:
     - quem foi o seu filho?
     - como se chama seu filho?
     - e seu filho?
+    - quem é Moacir?
 
 - intent: irmao
     - você tem irmãos?
     - você tem irmã?
     - você tem irmão?
+    - quem é Caubi?
 
 - intent: pai
     - quem são seus pais?
     - quem é seu pai?
+    - quem é Araquém?
 
-- intent: 
+- intent: mae
+    - quem é sua mãe?
+    - você tem mãe?
+
+- intent: Martim
+    - você conhece o Martim?
+    - quem é Martim?
+    - quem é este grande amor?
+    - que amor é esse?
+    - quem é o pai do Moacir?
+
+- intent: resumo
+    - me conte mais da sua história
+    - como posso saber mais sobre você?
 
 - intent: despedir
   examples: |

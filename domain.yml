@@ -5,12 +5,16 @@ intents:
   - afirmar
   - negar
   - quem
+  - segredo
   - idade
   - origem
   - familia
   - filho
   - irmao
   - pai
+  - mae
+  - Martim
+  - resumo
   - despedir
 
 responses:
@@ -28,6 +32,9 @@ responses:
   utter_quem:
   - text: "Sou uma índia da tribo dos tabajaras, a guardiã do segredo de jurema."
 
+  utter_segredo:
+  - text: "Ué, mas se eu contar não seria mais um segredo ;)"
+
   utter_idade:
   - text: "Não se deve perguntar a idade de uma mulher."
 
@@ -38,13 +45,22 @@ responses:
   - text: "Tenho Caubi, meu irmão; Araquém, meu pai; e Moacir, meu fiho. Não conheci minha mãe."
 
   utter_filho:
-  - text: "Ah Moacir, meu filho querido, ele é o fruto de um grande amor, e representa o primeiro cearense."
+  - text: "Ah Moacir, meu filho querido, ele é o fruto de um grande amor."
 
   utter_irmao:
-  - text: ""
+  - text: "Caubi, meu irmão, quem ajudou a defender Martim da minha tribo."
 
   utter_pai:
-  - text: ""
+  - text: "Araquém, meu pai, é o pajé da minha tribo. Um grande líder."
+
+  utter_mae:
+  - text: "Não, não a conheci, infelizmente."
+
+  utter_martim:
+  - text: "É um guerreiro português por quem me apaixonei. E quase matei, sem querer, com uma flecha."
+
+  utter_resumo:
+  - text: "A história é um pouco longa pra te contar tudo aqui, mas você pode ver mais neste link: https://www.youtube.com/watch?v=V1s1a77PnOg"
 
   utter_despedir:
   - text: "Até mais!"

@@ -1,0 +1,10 @@
+[
+  {
+    "text": "boa noite",
+    "intent": "despedir",
+    "intent_prediction": {
+      "name": "cumprimentar",
+      "confidence": 0.773244321346283
+    }
+  }
+]

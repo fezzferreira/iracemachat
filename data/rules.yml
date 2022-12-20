@@ -7,7 +7,7 @@ rules:
   - intent: despedir
   - action: utter_despedir
 
-# - rule: Dizer 'Sou um bot' sempre que o usuário desafiar
-#   steps:
-#   - intent: desafio
-#   - action: utter_desafio
+- rule: Dizer 'Sou um bot' sempre que o usuário desafiar
+  steps:
+  - intent: desafio
+  - action: utter_desafio

@@ -1,0 +1,31 @@
+version: "3.1"
+stories:
+- story: caminho feliz (.\tests\test_stories.yml)
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
+  - intent: quem  # predicted: desafio: quem e vc
+  - action: utter_quem
+  - intent: segredo
+  - action: utter_segredo
+- story: caminho feliz 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
+  - intent: origem
+  - action: utter_origem  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: despedir
+  - action: utter_despedir
+- story: caminho triste (.\tests\test_stories.yml)
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
+  - intent: negar
+  - action: utter_negar
+  - intent: familia
+  - action: utter_familia  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: agradecer
+  - action: utter_agradecer  # predicted: action_default_fallback
+  - action: action_listen  # predicted: action_default_fallback

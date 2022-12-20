@@ -35,6 +35,13 @@ nlu:
     - de jeito nenhum
     - não exatamente
 
+- intent: agradecer
+  examples: |
+    - vlw
+    - obrigado
+    - thx
+    - obg
+
 - intent: quem
   examples: |
     - o que é você?
@@ -68,6 +75,7 @@ nlu:
     - me fale sobre sua família
 
 - intent: filho
+  examples: |
     - você tem filhos?
     - você tem filho?
     - quem é o seu filho?
@@ -77,21 +85,25 @@ nlu:
     - quem é Moacir?
 
 - intent: irmao
+  examples: |
     - você tem irmãos?
     - você tem irmã?
     - você tem irmão?
     - quem é Caubi?
 
 - intent: pai
+  examples: |
     - quem são seus pais?
     - quem é seu pai?
     - quem é Araquém?
 
 - intent: mae
+  examples: |
     - quem é sua mãe?
     - você tem mãe?
 
 - intent: Martim
+  examples: |
     - você conhece o Martim?
     - quem é Martim?
     - quem é este grande amor?
@@ -99,6 +111,7 @@ nlu:
     - quem é o pai do Moacir?
 
 - intent: resumo
+  examples: |
     - me conte mais da sua história
     - como posso saber mais sobre você?
 
@@ -115,3 +128,9 @@ nlu:
     - tenha um bom dia
     - a gente se vê
     - tchau
+
+- intent: desafio
+  examples: |
+    - vc é um bot?
+    - vc é humana?
+    - você é um robô?

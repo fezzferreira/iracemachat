@@ -4,6 +4,7 @@ intents:
   - cumprimentar
   - afirmar
   - negar
+  - agradecer
   - quem
   - segredo
   - idade
@@ -16,18 +17,20 @@ intents:
   - Martim
   - resumo
   - despedir
+  - desafio
 
 responses:
   utter_cumprimentar:
-  - text: "Oi! Tudo bem?"
-    text: "Meu nome é Iracema, quer conhecer um pouco sobre mim?"
-    text: "Posso te contar sobre minha origem, família, significado do meu nome e outra coisas."
+  - text: "Olá! Me chamo Iracema, o que deseja saber? Posso te contar sobre minha origem, família, significado do meu nome e outra coisas"
 
   utter_afirmar:
   - text: "Pois é."
 
   utter_negar:
   - text: "Poxa, que pena, tente novamente."
+
+  utter_agradecer:
+  - text: "De nada!"
 
   utter_quem:
   - text: "Sou uma índia da tribo dos tabajaras, a guardiã do segredo de jurema."
@@ -64,6 +67,9 @@ responses:
 
   utter_despedir:
   - text: "Até mais!"
+
+  utter_desafio:
+  - text: "Sou um robô, mas isso é segredo!"
 
 session_config:
   session_expiration_time: 60

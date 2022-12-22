@@ -44,10 +44,8 @@ nlu:
 
 - intent: quem
   examples: |
-    - o que é você?
     - quem é você?
-    - você é um bot?
-    - você é humana?
+    - quem é vc?
 
 - intent: segredo
   examples: |
@@ -58,19 +56,21 @@ nlu:
 - intent: idade
   examples: |
     - quantos anos você tem?
-    - qual a sua idade?
+    - qual é a sua idade?
 
 - intent: origem
   examples: |
     - de onde você é?
+    - de onde você vem?
+    - de onde você veio?
     - onde você nasceu?
     - onde você mora?
     - onde você vive?
-    - de onde você veio?
 
 - intent: familia
   examples: |
     - você tem família?
+    - quem é a sua família?
     - me conte sobre sua família
     - me fale sobre sua família
 
@@ -83,6 +83,7 @@ nlu:
     - como se chama seu filho?
     - e seu filho?
     - quem é Moacir?
+    - você conhece o Moacir?
 
 - intent: irmao
   examples: |
@@ -90,30 +91,42 @@ nlu:
     - você tem irmã?
     - você tem irmão?
     - quem é Caubi?
+    - você conhece o Caubi?
 
 - intent: pai
   examples: |
     - quem são seus pais?
-    - quem é seu pai?
+    - quem é o seu pai?
+    - quem foi o seu pai?
+    - como se chama seu pai?
+    - e o seu pai?
     - quem é Araquém?
+    - você conhece o Araquém?
 
 - intent: mae
   examples: |
-    - quem é sua mãe?
-    - você tem mãe?
+    - quem é a sua mãe?
+    - quem foi a sua mãe?
+    - como se chama a sua mãe?    
+    - e a sua mãe?
+    - você conhece a sua mãe?
 
-- intent: Martim
+- intent: amor
   examples: |
-    - você conhece o Martim?
+    - quem é seu grande amor?
     - quem é Martim?
     - quem é este grande amor?
     - que amor é esse?
     - quem é o pai do Moacir?
+    - você conhece o Martim?
 
 - intent: resumo
   examples: |
     - me conte mais da sua história
     - como posso saber mais sobre você?
+    - faça um resumo
+    - me dê um resumo
+    - resume aí
 
 - intent: despedir
   examples: |
@@ -134,3 +147,8 @@ nlu:
     - vc é um bot?
     - vc é humana?
     - você é um robô?
+
+- intent: criador
+  examples: |
+    - quem é o seu criador?
+    - quem criou você?

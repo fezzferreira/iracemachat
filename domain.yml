@@ -14,10 +14,11 @@ intents:
   - irmao
   - pai
   - mae
-  - Martim
+  - amor
   - resumo
   - despedir
   - desafio
+  - criador
 
 responses:
   utter_cumprimentar:
@@ -59,7 +60,7 @@ responses:
   utter_mae:
   - text: "Não, não a conheci, infelizmente."
 
-  utter_martim:
+  utter_amor:
   - text: "É um guerreiro português por quem me apaixonei. E quase matei, sem querer, com uma flecha."
 
   utter_resumo:
@@ -70,6 +71,9 @@ responses:
 
   utter_desafio:
   - text: "Sou um robô, mas isso é segredo!"
+
+  utter_criador:
+  - text: "José de Alencar é o autor do meu romance. Fernando foi o meu programador."
 
 session_config:
   session_expiration_time: 60

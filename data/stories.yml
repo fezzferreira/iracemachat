@@ -2,7 +2,7 @@ version: "3.1"
 
 stories:
 
-- story: caminho feliz
+- story: quem é vc?
   steps:
   - intent: cumprimentar
   - action: utter_cumprimentar
@@ -10,14 +10,42 @@ stories:
   - action: utter_quem
   - intent: segredo
   - action: utter_segredo
+
+- story: origem
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
   - intent: origem
   - action: utter_origem
+
+- story: idade
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
+  - intent: idade
+  - action: utter_idade
+
+- story: familia
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar
   - intent: familia
   - action: utter_familia
   - intent: filho
   - action: utter_filho
   - intent: Martim
   - action: utter_martim
+  - intent: irmao
+  - action: utter_irmao
+  - intent: pai
+  - action: utter_pai
+  - intent: mae
+  - action: utter_mae
+  
+- story: resumo
+  steps:
+  - intent: cumprimentar
+  - action: utter_cumprimentar  
   - intent: resumo
   - action: utter_resumo
   - intent: despedir

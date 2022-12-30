@@ -5,35 +5,11 @@ nlu:
   examples: |
     - olá
     - oi
-    - eai
-    - eae
     - e aí
     - ei
     - bom dia
     - boa tarde
     - boa noite
-    - fala
-    - opa
-    - bora
-
-- intent: afirmar
-  examples: |
-    - sim
-    - s
-    - de fato
-    - claro
-    - é isso aí
-    - correto
-
-- intent: negar
-  examples: |
-    - não
-    - n
-    - nunca
-    - acho que não
-    - não curti
-    - de jeito nenhum
-    - não exatamente
 
 - intent: agradecer
   examples: |
@@ -42,21 +18,16 @@ nlu:
     - thx
     - obg
 
-- intent: quem
-  examples: |
-    - quem é você?
-    - quem é vc?
-
 - intent: segredo
   examples: |
     - segredo?
     - que segredo é esse?
     - o que é o segredo de Jurema?
 
-- intent: idade
+- intent: periodo
   examples: |
-    - quantos anos você tem?
-    - qual é a sua idade?
+    - quando você foi criada?
+    - quando você nasceu?
 
 - intent: origem
   examples: |
@@ -66,6 +37,11 @@ nlu:
     - onde você nasceu?
     - onde você mora?
     - onde você vive?
+
+- intent: iracema
+  examples: |
+    - quem é você?
+    - quem é Iracema?
 
 - intent: familia
   examples: |
@@ -130,25 +106,23 @@ nlu:
 
 - intent: despedir
   examples: |
-    - até
-    - adeus
     - até mais
-    - até logo
-    - até já
-    - boa noite
+    - adeus
     - falou
     - flw
-    - tenha um bom dia
-    - a gente se vê
     - tchau
 
 - intent: desafio
   examples: |
-    - vc é um bot?
-    - vc é humana?
+    - você é um bot?
+    - você é uma humana?
     - você é um robô?
 
 - intent: criador
   examples: |
     - quem é o seu criador?
     - quem criou você?
+
+- intent: desconhecido
+  examples: |
+    - 

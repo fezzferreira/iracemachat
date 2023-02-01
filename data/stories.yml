@@ -6,8 +6,8 @@ stories:
   steps:
   - intent: cumprimentar
   - action: utter_cumprimentar
-  - intent: quem
-  - action: utter_quem
+  - intent: iracema
+  - action: utter_iracema
   - intent: segredo
   - action: utter_segredo
 
@@ -18,12 +18,12 @@ stories:
   - intent: origem
   - action: utter_origem
 
-- story: idade
-  steps:
-  - intent: cumprimentar
-  - action: utter_cumprimentar
-  - intent: idade
-  - action: utter_idade
+# - story: idade
+#   steps:
+#   - intent: cumprimentar
+#   - action: utter_cumprimentar
+#   - intent: idade
+#   - action: utter_idade
 
 - story: familia
   steps:
@@ -51,11 +51,11 @@ stories:
   - intent: despedir
   - action: utter_despedir
 
-- story: caminho triste 1
-  steps:
-  - intent: cumprimentar
-  - action: utter_cumprimentar
-  - intent: negar
-  - action: utter_negar
-  - intent: despedir
-  - action: utter_despedir
+# - story: caminho triste 1
+#   steps:
+#   - intent: cumprimentar
+#   - action: utter_cumprimentar
+#   - intent: negar
+#   - action: utter_negar
+#   - intent: despedir
+#   - action: utter_despedir

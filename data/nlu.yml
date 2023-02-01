@@ -123,6 +123,6 @@ nlu:
     - quem é o seu criador?
     - quem criou você?
 
-- intent: desconhecido
-  examples: |
-    - 
+# - intent: desconhecido
+#   examples: |
+#     - 

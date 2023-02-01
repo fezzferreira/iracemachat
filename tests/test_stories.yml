@@ -10,8 +10,8 @@ stories:
   - action: utter_cumprimentar
   - user: |
       quem e vc
-    intent: quem
-  - action: utter_quem
+    intent: iracema
+  - action: utter_iracema
   - user: |
       segredo?
     intent: segredo
@@ -32,24 +32,24 @@ stories:
     intent: despedir
   - action: utter_despedir
 
-- story: caminho triste
-  steps:
-  - user: |
-      eai
-    intent: cumprimentar
-  - action: utter_cumprimentar
-  - user: |
-      não curti
-    intent: negar
-  - action: utter_negar
-  - user: |
-      me conte sobre sua familia
-    intent: familia
-  - action: utter_familia
-  - user: |
-      obrigado
-    intent: agradecer
-  - action: utter_agradecer
+# - story: caminho triste
+#   steps:
+#   - user: |
+#       eai
+#     intent: cumprimentar
+#   - action: utter_cumprimentar
+#   - user: |
+#       não curti
+#     intent: negar
+#   - action: utter_negar
+#   - user: |
+#       me conte sobre sua familia
+#     intent: familia
+#   - action: utter_familia
+#   - user: |
+#       obrigado
+#     intent: agradecer
+#   - action: utter_agradecer
 
 - story: despedida
   steps:
